@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #4a5669;
+}
+
+.vjs-slider-segments {
+  height: 100%;
+  background-color: #2b333fb3;
+  display: block;
+  width: 100%;
+}
+
+.vjs-slider-segment {
+  height: 100%;
+  position: absolute;
+  background-color: #4a5669;
+}
+
+.vjs-play-progress:hover.vjs-slider-segment:hover {
+  background-color: green;
+}
+
+.vjs-play-progress.vjs-slider-bar {
+  background-color: red;
+  z-index: 1;
+}
